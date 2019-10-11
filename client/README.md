@@ -1,7 +1,3 @@
-# jamesdon.io, Welcom to my domain.
+# jamesdon.io Client
 
-Machine with creativity and heart
-
-# Rule: Less is more. Alah Occam
-
-## First personal website/app "from scratch".
+CRA 2.0
