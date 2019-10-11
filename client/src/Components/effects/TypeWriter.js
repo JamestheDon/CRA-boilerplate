@@ -27,7 +27,8 @@ function TypeWriter({ messages, heading }) {
     };
     handleType();
     return () => clearTimeout(timer);
-  }, [state.isDeleting]);
+    //For some reason not having "state.typingSpeed" triggred a missing dependency.
+  }, [/*state.isDeleting,*/ state.typingSpeed]);
 
   useEffect(() => {
     if (!state.isDeleting && state.text === state.message) {
