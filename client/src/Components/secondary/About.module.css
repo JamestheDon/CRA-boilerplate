@@ -1,0 +1,14 @@
+.about {
+  /*color: #ffe4;*/
+  color: #ffb000;
+}
+
+.aboutCard {
+  opacity: 0.5;
+  color: #ffb000;
+}
+
+h1,
+h2 {
+  color: #ffe4;
+}

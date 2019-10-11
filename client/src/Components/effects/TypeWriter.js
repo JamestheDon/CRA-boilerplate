@@ -64,11 +64,11 @@ function TypeWriter({ messages, heading }) {
   }
 
   return (
-    <h1>
+    <p>
       {heading}&nbsp;
       <span>{state.text}</span>
       <span className={styles.cursor} />
-    </h1>
+    </p>
   );
 }
 

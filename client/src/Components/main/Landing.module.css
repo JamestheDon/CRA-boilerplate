@@ -1,12 +1,23 @@
 .App {
-  text-align: center;
-  padding: 30px;
+  text-align: left;
+  opacity: 0.8;
+  max-height: 40vh;
+}
+
+.terminal {
+  font-size: 12px;
+}
+
+.screen {
+  height: 100vh;
+
+  padding: 40px;
+  background-image: url(../../img/RGBL21.gif);
 }
 
 .appLogo {
-  height: 80vmin;
   animation: appLogoSpin infinite 20s linear;
-  height: 40vmin;
+
   pointer-events: none;
   opacity: 0.3;
   max-width: 120px;
@@ -19,17 +30,6 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.appHeader {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .appLink {

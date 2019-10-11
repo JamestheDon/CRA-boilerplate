@@ -7,8 +7,8 @@ import TypeWriter from "../effects/TypeWriter";
 
 function Landing() {
   return (
-    <div className={`container card shadow-lg ${styles.App}`}>
-      <header className={styles.appHeader}>
+    <div className={`row justify-content-sm-left  ${styles.screen}`}>
+      <div className={`col-sm-4 card shadow-lg ${styles.App}`}>
         <img
           src={james}
           className={`rounded-circle border border-success ${styles.appLogo}`}
@@ -23,7 +23,10 @@ function Landing() {
         >
           Learn React
         </a>
-        <span>last login: {new Date().toUTCString()} </span>
+
+        <span className={styles.terminal}>
+          last login: {new Date().toUTCString()}{" "}
+        </span>
         <TypeWriter
           heading={">_"}
           messages={[
@@ -31,7 +34,7 @@ function Landing() {
             "I am at your service...             "
           ]}
         />
-      </header>
+      </div>
     </div>
   );
 }
