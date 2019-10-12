@@ -66,6 +66,7 @@ function TypeWriter({ messages, heading }) {
 
   return (
     <p>
+      <br />
       {heading}&nbsp;
       <span>{state.text}</span>
       <span className={styles.cursor} />

@@ -7,34 +7,29 @@ import TypeWriter from "../effects/TypeWriter";
 
 function Landing() {
   return (
-    <div className="container">
-      <div className={`row justify-content-left ${styles.screen}`}>
-        <div className={`col-sm-4 card shadow-lg ${styles.App}`}>
+    <div className={`container ${styles.screen1}`}>
+      <div className="row">
+        <div className="col-md-12 text-center ">
           <img
             src={james}
-            className={`rounded-circle border border-success ${styles.appLogo}`}
+            className={`rounded-circle border border-success  ${styles.logo}`}
             alt="logo"
           />
 
-          <a
-            className={styles.appLink}
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-
-          <span className={styles.terminal}>
-            last login: {new Date().toUTCString()}{" "}
-          </span>
-          <TypeWriter
-            heading={">_"}
-            messages={[
-              "This is my personal digital platform built by me      ",
-              "I am at your service...             "
-            ]}
-          />
+          <div className={`row  ${styles.lvlTwo}`}>
+            {/** NESTED ROW */}
+            <div className={`col-md-12   ${styles.terminal}`}>
+              <div className="col-md-4  shadow-lg">
+                <TypeWriter
+                  heading={">_"}
+                  messages={[
+                    "This is my personal digital platform built by me      ",
+                    "I am at your service...             "
+                  ]}
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

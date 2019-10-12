@@ -1,30 +1,20 @@
-.App {
-  text-align: left;
-  opacity: 0.8;
-  max-height: 40vh;
-}
-
-.terminal {
-  font-size: 12px;
-}
-
-.screen {
-  height: 100vh;
-
-  padding: 40px;
+.screen1 {
   background-image: url(../../img/RGBL21.gif);
   background-repeat: no-repeat;
-
+  height: 75vh;
   background-size: cover;
 }
 
-.appLogo {
+.logo {
   animation: appLogoSpin infinite 20s linear;
 
   pointer-events: none;
   opacity: 0.3;
-  max-width: 120px;
-  max-height: 120px;
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.logoBox {
 }
 @keyframes appLogoSpin {
   from {
@@ -35,6 +25,8 @@
   }
 }
 
-.appLink {
-  color: #09d3ac;
+.terminal {
+  text-align: left;
+  opacity: 0.8;
+  min-height: 15vh;
 }
