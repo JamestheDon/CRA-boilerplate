@@ -9,7 +9,7 @@ function Landing() {
   return (
     <div className={`container ${styles.screen1}`}>
       <div className="row">
-        <div className="col-md-12 text-center ">
+        <div className={`col-md-12 text-center ${styles.logoBox}`}>
           <img
             src={james}
             className={`rounded-circle border border-success  ${styles.logo}`}

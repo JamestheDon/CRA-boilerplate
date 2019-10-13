@@ -3,9 +3,15 @@
   color: #ffb000;
 }
 
+.jumbotron {
+  background-image: url(../../img/RGBL21.gif);
+  background-repeat: no-repeat;
+  height: 75vh;
+  background-size: cover;
+}
+
 .aboutCard {
-  opacity: 0.5;
-  color: #ffb000;
+  opacity: 0.6;
 }
 
 h1,

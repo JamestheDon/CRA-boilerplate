@@ -26,12 +26,13 @@ class NavBar extends Component {
                   About
                 </Link>
               </li>
-              {/** 
+
               <li className="nav-item">
                 <Link className="nav-link " to="/skills">
                   Skills
                 </Link>
               </li>
+              {/** 
               <li className="nav-item">
                 <Link className="nav-link" to="/portfolio">
                   Portfolio
