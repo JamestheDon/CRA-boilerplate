@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./About.module.css";
 
 export default () => {
   return (
@@ -12,72 +13,41 @@ export default () => {
           </h5>
         </div>
       </div>
-      <span>
-        <h3>
-          <i className="fas fa-desktop" /> Software
-        </h3>
-      </span>
-      <div className="row ">
-        <span role="img" aria-label="Star">
-          HTML
-        </span>
-        <span role="img" aria-label="Star">
-          CSS
-        </span>
-        Languages
-        <span role="img" aria-label="Star">
-          Javascript
-        </span>
-        <span role="img" aria-label="Star">
-          Bash
-        </span>
-        Frameworks
-        <span role="img" aria-label="Star">
-          React.js
-        </span>
-        <span role="img" aria-label="Star">
-          Blockstack.js
-        </span>
-        <span role="img" aria-label="Star">
-          Express.js
-        </span>
-        <span role="img" aria-label="Star">
-          Bootstrap
-        </span>
-        Enviroments
-        <span role="img" aria-label="Star">
-          Node.js
-        </span>
-        <span role="img" aria-label="Star">
-          Heroku
-        </span>
-        <span role="img" aria-label="Star">
-          Netlify
-        </span>
-        Database
-        <span role="img" aria-label="Star">
-          MongoDb
-        </span>
-        <span role="img" aria-label="Star">
-          Mongoose.js
-        </span>
-        <span role="img" aria-label="Star">
-          Gaia
-        </span>
-        <span role="img" aria-label="Star">
-          NoSQL
-        </span>
-        Tools
-        <span role="img" aria-label="Star">
-          Git
-        </span>
-        <span role="img" aria-label="Star">
-          Github
-        </span>
+      {/**Front end */}
+      <div className={`card border-light mb-3 ${styles.skillCard}`}>
+        <div className="card-header">Frontend </div>
+        <div className="card-body">
+          <h4 className="card-title">website and app development</h4>
+          <p className="card-text">
+            Modern design and industry standard performance.{" "}
+          </p>
+        </div>
       </div>
-
-      {/** =================================== */}
-      <div className="col-md-6"></div>
+      {/** ==BACKEND== */}
+      <div className={`card border-light mb-3 ${styles.skillCard}`}>
+        <div className="card-header">Backend</div>
+        <div className="card-body">
+          <h4 className="card-title">Server, Database {"&"} APIs</h4>
+          <p className="card-text">Building personal servers and databases.</p>
+        </div>
+      </div>
+      <div className="row ">
+        <span className="badge badge-success">HTML</span>
+        <span className="badge badge-success">CSS</span>
+        <span className="badge badge-success">JavaScript</span>
+        <span className="badge badge-success">Bash</span>
+        <span className="badge badge-success">React</span>
+        <span className="badge badge-success">Blockstack.js</span>
+        <span className="badge badge-success">Express.js</span>
+        <span className="badge badge-success">Node.js</span>
+        <span className="badge badge-success">Heroku</span>
+        <span className="badge badge-success">Netlify</span>
+        <span className="badge badge-success">MongoDB</span>
+        <span className="badge badge-success">Mongoose.js</span>
+        <span className="badge badge-success">Gaia</span>
+        <span className="badge badge-success">Git</span>
+        <span className="badge badge-success">Github</span>
+      </div>
     </div>
   );
 };

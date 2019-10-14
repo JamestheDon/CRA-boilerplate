@@ -1,4 +1,10 @@
 .screen1 {
+  background-repeat: no-repeat;
+  height: 75vh;
+  background-size: cover;
+}
+
+.jumbotron {
   background-image: url(../../img/RGBL21.gif);
   background-repeat: no-repeat;
   height: 75vh;

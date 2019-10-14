@@ -10,6 +10,10 @@
   background-size: cover;
 }
 
+.typeWriter {
+  height: 10vh;
+}
+
 .aboutCard {
   opacity: 0.6;
 }
