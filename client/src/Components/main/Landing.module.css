@@ -5,9 +5,10 @@
 }
 
 .jumbotron {
+  background-color: rgba(0, 0, 0, 0.7);
   background-image: url(../../img/RGBL21.gif);
   background-repeat: no-repeat;
-  height: 75vh;
+  height: 80vh;
   background-size: cover;
 }
 
@@ -31,8 +32,6 @@
   }
 }
 
-.terminal {
-  text-align: left;
-  opacity: 0.8;
-  min-height: 15vh;
+.typeWriter {
+  min-height: 12vh;
 }

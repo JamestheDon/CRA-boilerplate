@@ -1,24 +1,34 @@
-.about {
+.aboutCard {
   /*color: #ffe4;*/
-  color: #ffb000;
+  /*color: #ffb000;*/
 }
 
-.jumbotron {
-  background-image: url(../../img/RGBL21.gif);
-  background-repeat: no-repeat;
-  height: 75vh;
-  background-size: cover;
+.logo {
+  opacity: 0.6;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 5px solid black;
+  margin: auto;
+  -webkit-animation: rotateY 1s infinite linear;
+  animation: rotateY 2s infinite linear;
+}
+@-webkit-keyframes rotateY {
+  to {
+    -webkit-transform: rotateY(360deg);
+  }
+}
+@keyframes rotateY {
+  to {
+    transform: rotateY(360deg);
+  }
 }
 
 .typeWriter {
   height: 10vh;
 }
 
-.aboutCard {
-  opacity: 0.6;
-}
-
-h1,
-h2 {
-  color: #ffe4;
+/*====Skills======*/
+.skillCard {
+  max-width: 20rem;
 }
