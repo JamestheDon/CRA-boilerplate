@@ -8,23 +8,19 @@ import { Link } from "react-router-dom";
 function Landing() {
   return (
     <div className={`container ${styles.screen1}`}>
-      <div className={`jumbotron text-center ${styles.jumbotron}`}>
-        <h1 className="display-3">Industry is dead.</h1>
-        <hr />
-
-        <div className={`row ${styles.typeWriter}`}>
-          <TypeWriter
-            heading={">_"}
-            messages={[
-              "This is my personal digital platform built by me      ",
-              "I am at your service...             "
-            ]}
-          />
+      <div className="row justify-content-center">
+        <div className="col-md-8">
+          <div className={`jumbotron text-left  ${styles.jumbotron}`}>
+            <TypeWriter
+              heading={">_"}
+              messages={[
+                "This is my personal digital platform built by me      ",
+                "I am at your service...             "
+              ]}
+            />
+            <hr />
+          </div>
         </div>
-        <hr />
-        <Link to="/skills" className="btn btn-primary btn-lg" target="_blank">
-          Learn more
-        </Link>
       </div>
     </div>
   );

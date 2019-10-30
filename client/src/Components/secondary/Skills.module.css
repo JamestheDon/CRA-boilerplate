@@ -1,0 +1,28 @@
+.secondary1 {
+  /* background-color: #212121;*/
+  height: auto;
+}
+.lead {
+  width: 100vh;
+  margin: 20px;
+}
+
+.screenLvl1 {
+  border: 6px ridge #333;
+  box-shadow: 0px 20px 20px azure;
+  background-size: cover;
+  background-image: url(../../img/RGBL21.gif);
+  z-index: 1;
+}
+.screenLvl2 {
+  border: 4px solid #111;
+
+  height: 25vh;
+}
+
+.screenLvl3 {
+  background-color: rgba(31, 30, 30, 0.8);
+  height: 20vh;
+
+  margin: 10px;
+}

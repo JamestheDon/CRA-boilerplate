@@ -1,14 +1,25 @@
 import React from "react";
-import styles from "./About.module.css";
+import styles from "./Skills.module.css";
 import GithubApi from "../effects/GithubApi";
 
 export default () => {
   return (
-    <div className="container">
-      {/**Github proj. */}
-      <div className={`container ${styles}`}>
-        <GithubApi username={"JamestheDon"} />
+    <div className={` container shadow-lg ${styles.secondary1}`}>
+      <div className={` row justify-content-center  ${styles.main}`}>
+        <div className={`  ${styles.lead}`}>
+          {/** C */}
+          <div className={`  ${styles.screenLvl1}`}>
+            <div className={`  ${styles.screenLvl2}`}>
+              <div className={`  text-left ${styles.screenLvl3}`}>
+                <h3>Projects</h3>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <h3 className="mb-4 text-center">Latest Github Repos</h3>
+      <hr />
+      <GithubApi username={"JamestheDon"} />
     </div>
   );
   /**

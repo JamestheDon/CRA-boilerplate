@@ -5,7 +5,7 @@ class NavBar extends Component {
   render() {
     return (
       /**++++++++++++++++++++++ */
-      <nav className="navbar navbar-expand-sm navbar-dark bg-dark mt-2">
+      <nav className="navbar navbar-expand-lg navbar-dark   ">
         <div className="container">
           <Link className="navbar-brand" to="/">
             {"jamesdon.io /"}
@@ -18,9 +18,9 @@ class NavBar extends Component {
           >
             <span className="navbar-toggler-icon" />
           </button>
-
-          <div className="collapse navbar-collapse" id="mobile-nav">
-            <ul className="navbar-nav mr-auto">
+          {/** */}
+          <div className="collapse navbar-collapse " id="mobile-nav">
+            <ul className="nav navbar-nav mr-auto ">
               <li className="nav-item">
                 <Link className="nav-link" to="/about">
                   About

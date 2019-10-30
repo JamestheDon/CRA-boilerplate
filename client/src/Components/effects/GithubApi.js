@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+
 import PropTypes from "prop-types";
+import styles from "./GithubApi.module.css";
 
 class ProfileGithub extends Component {
   constructor(props) {
@@ -34,13 +35,18 @@ class ProfileGithub extends Component {
     const { repos } = this.state;
 
     const repoItems = repos.map(repo => (
-      <div key={repo.id} className="repo bg-dark p-1 my-1">
+      <div key={repo.id} className="repo  p-1 my-1">
         <div>
-          <h4>
-            <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
+          <h3>
+            <a
+              className={`${styles.github}`}
+              href={repo.html_url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {repo.name}
             </a>
-          </h4>
+          </h3>
           <p>{repo.description}</p>
         </div>
         <div>
@@ -48,21 +54,17 @@ class ProfileGithub extends Component {
             <li className="badge badge-primary">
               Stars: {repo.stargazers_count}
             </li>
+            &nbsp;
             <li className="badge badge-dark">
               Watchers: {repo.watchers_count}
             </li>
+            &nbsp;
             <li className="badge badge-light">Forks: {repo.forks_count}</li>
           </ul>
         </div>
       </div>
     ));
-    return (
-      <div ref="myRef">
-        <hr />
-        <h3 className="mb-4">Latest Github Repos</h3>
-        {repoItems}
-      </div>
-    );
+    return <div ref="myRef">{repoItems}</div>;
   }
 }
 

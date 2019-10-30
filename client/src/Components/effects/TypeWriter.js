@@ -65,7 +65,7 @@ function TypeWriter({ messages, heading }) {
   }
 
   return (
-    <p>
+    <p className={`${styles.text}`}>
       <br />
       {heading}&nbsp;
       <span>{state.text}</span>

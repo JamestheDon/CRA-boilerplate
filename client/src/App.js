@@ -12,9 +12,9 @@ import Footer from "./Components/main/Footer";
 function App() {
   return (
     <Router>
-      <div className={`container card shadow-lg ${styles.App}`}>
-        <NavBar />
+      <div className={` container ${styles.App}`}>
         <header className={styles.appHeader}>
+          <NavBar />
           <Route exact path="/" component={Landing} />
           <Route exact path="/about" component={About} />
           <Route exact path="/skills" component={Skills} />

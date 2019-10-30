@@ -1,15 +1,16 @@
 .screen1 {
-  background-repeat: no-repeat;
-  height: 75vh;
-  background-size: cover;
+  height: 100vh;
 }
 
 .jumbotron {
   background-color: rgba(0, 0, 0, 0.7);
   background-image: url(../../img/RGBL21.gif);
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 30vh;
+  padding: 15px;
   background-size: cover;
+  border: 6px ridge #333;
+  box-shadow: 10px 10px 20px azure;
 }
 
 .logo {
