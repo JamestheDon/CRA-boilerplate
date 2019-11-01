@@ -31,19 +31,16 @@ class About extends Component {
                 Software development. Business, new tools, change and progress.
               </p>
 
-              <h3 align="center">Where you're standing</h3>
-              <p>
-                This is my private v0.1.0 web-app. Higher versions v1.0.0^ api
-                being built with distributed ledger capabilities.
-              </p>
               <h3 align="center">What I do</h3>
               <p>
                 I specilize in digital buisiness, think of me as a digital
                 superuser, concierge and practicing programmer. Expieranced in
-                industry standards for software development and beyond. ill
-                periodically be posting new projects im working on, thoughts
-                about the Digital Industry and occasionally posting about more
-                philisophical topics.
+                industry standards for software development and beyond.
+              </p>
+              <h3 align="center">Where you're standing</h3>
+              <p>
+                This is my private v0.1.0 web-app. Higher api version v1.0.0^ is
+                being built.
               </p>
             </div>
           </div>

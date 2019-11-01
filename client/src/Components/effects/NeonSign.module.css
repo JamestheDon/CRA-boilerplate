@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Megrim&display=swap");
+
 .span {
   --blur-r: 0.15em;
   --main-sat: 50%;
@@ -36,13 +38,15 @@
     0 0 calc(var(--blur-r) * 4.5) var(--dark-shadow-color);
 
   font-size: 10vmin;
+
   color: var(--color);
-  /* font-family: "Cedarville Cursive", cursive; */
+  font-family: "Megrim", cursive;
+  font-style: italic;
   text-shadow: var(--shadow);
 }
 
 .line:first-of-type {
-  --hue: 185;
+  --hue: -500;
 }
 /*
 .line:nth-of-type(2) {
@@ -58,8 +62,8 @@
 }
 */
 .well {
-  --hue: 184;
-  --duration: 6s;
+  --hue: 300;
+  --duration: 8s;
   --delay: calc(var(--duration) / 4);
   animation: flicker var(--duration) infinite;
   animation-delay: calc(var(--i) * calc(var(--duration) / 4));
@@ -92,6 +96,6 @@
 .lines {
   margin: auto;
   display: grid;
-  padding: 1em;
+  padding: 0.5em;
   line-height: 1.1;
 }

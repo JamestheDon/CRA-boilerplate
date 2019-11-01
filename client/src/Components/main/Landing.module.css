@@ -3,14 +3,20 @@
 }
 
 .jumbotron {
-  background-color: rgba(0, 0, 0, 0.7);
   background-image: url(../../img/RGBL21.gif);
   background-repeat: no-repeat;
   height: 30vh;
-  padding: 15px;
+  padding: 20px;
+  margin-top: 40px;
   background-size: cover;
   border: 6px ridge #333;
   box-shadow: 10px 10px 20px azure;
+}
+
+.darkoverlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: auto;
+  z-index: 0;
 }
 
 .logo {

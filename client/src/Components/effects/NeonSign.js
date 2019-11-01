@@ -4,7 +4,7 @@ import styles from "./NeonSign.module.css";
 
 function NeonSign() {
   return (
-    <div className={` container ${styles.span}`}>
+    <div className={` container text-center ${styles.span}`}>
       <div className={` ${styles.lines}`}>
         <span className={`${styles.span} ${styles.line}`}>
           I want it to

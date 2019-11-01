@@ -7,9 +7,10 @@ import TypeWriter from "../effects/TypeWriter";
 function Landing() {
   return (
     <div className={`container ${styles.screen1}`}>
-      <div className="row justify-content-center">
+      <div className={`row justify-content-center ${styles.removedStyles}`}>
         <NeonSign />
-        <div className="col-md-8">
+        <hr />
+        <div className={`col-md-8 ${styles.removed}`}>
           <div className={`jumbotron text-left  ${styles.jumbotron}`}>
             <TypeWriter
               heading={">_"}
