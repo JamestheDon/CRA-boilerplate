@@ -15,7 +15,7 @@ body {
 
 .appHeader {
   /*ONLY THING THAT MATTERS BG COLOR*/
-
+  background-color: rgba(17, 17, 36, 0.5);
   /* min-height: 100vh; */
   /* display: flex; */
   /* flex-direction: column; */
