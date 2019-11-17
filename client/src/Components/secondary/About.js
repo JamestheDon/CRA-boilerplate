@@ -8,7 +8,7 @@ class About extends Component {
     return (
       <div className={` container shadow-lg ${styles.main1}`}>
         <div className={` row justify-content-center  ${styles.main}`}>
-          <NeonSign mainDesc={"Jamesdon.io"} />
+          <NeonSign mainDesc={"Jamesdon"} />
           <div className={`  ${styles.lead}`}>
             {/** C */}
             <div className={`  ${styles.screenLvl1}`}>
