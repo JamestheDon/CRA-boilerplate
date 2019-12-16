@@ -32,6 +32,11 @@ class NavBar extends Component {
                   projects
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link " to="/pixelandprocessor">
+                  pixel & processor
+                </Link>
+              </li>
 
               {/** 
               <li className="nav-item">
