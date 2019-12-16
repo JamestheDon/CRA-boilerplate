@@ -8,6 +8,7 @@ import About from "./Components/secondary/About";
 import Landing from "./Components/main/Landing";
 import NavBar from "./Components/main/NavBar";
 import Footer from "./Components/main/Footer";
+import PP from "./Components/secondary/PP";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/" component={Landing} />
           <Route exact path="/about" component={About} />
           <Route exact path="/skills" component={Skills} />
+          <Route exact path="/pixelandprocessor" component={PP} />
           <Footer />
         </header>
       </div>

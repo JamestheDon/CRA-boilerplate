@@ -23,13 +23,13 @@ class NavBar extends Component {
             <ul className="nav navbar-nav mr-auto ">
               <li className="nav-item">
                 <Link className="nav-link" to="/about">
-                  About
+                  about
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link className="nav-link " to="/skills">
-                  Projects
+                  projects
                 </Link>
               </li>
               {/** 
