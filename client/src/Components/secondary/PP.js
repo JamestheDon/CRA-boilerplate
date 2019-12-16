@@ -12,8 +12,8 @@ class PP extends Component {
     return (
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-md-10 shadow-lg card">
-            <h1 className="text-center">Portfolio</h1>
+          <div className="col-md-10 ">
+            <h3 className="text-center">Portfolio</h3>
             <p className="lead">
               *All projects and business listed below were produced as a whole
               by Pixel {"&"} Processor, llc where I played the role of
@@ -24,7 +24,7 @@ class PP extends Component {
         </div>
         <hr />
         <div className="row justify-content-center">
-          <div className="card shadow-lg col-lg-8">
+          <div className="  col-lg-8">
             <img
               style={{
                 height: "auto",
@@ -43,7 +43,7 @@ class PP extends Component {
         </div>
         <hr />
         <div className="row justify-content-center">
-          <div className="card shadow-lg col-lg-8 ">
+          <div className=" col-lg-8 ">
             <img
               style={{
                 height: "auto",
@@ -61,7 +61,7 @@ class PP extends Component {
         </div>
         <hr />
         <div className="row justify-content-center">
-          <div className="card shadow-lg col-lg-8">
+          <div className=" col-lg-8">
             <img
               style={{
                 height: "auto",
@@ -79,7 +79,7 @@ class PP extends Component {
         </div>
         <hr />
         <div className="row justify-content-center">
-          <div className="card shadow-lg col-lg-8">
+          <div className=" col-lg-8">
             <img
               style={{
                 height: "auto",
