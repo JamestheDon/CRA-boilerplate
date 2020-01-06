@@ -1,16 +1,21 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
 import primo from "../../img/portfolio/Portfolio_000.jpg";
 import venturecity from "../../img/portfolio/Portfolio_001.jpg";
 import spop from "../../img/portfolio/Portfolio_002.jpg";
 import freelance from "../../img/portfolio/Portfolio_003.jpg";
 
-
-
-
 class PP extends Component {
   render() {
     return (
       <div className="container">
+        <Helmet>
+          <title>Portfolio</title>
+          <meta
+            name="description"
+            content="James Don's Pixel and Processor, llc portfolio"
+          ></meta>
+        </Helmet>
         <div className="row justify-content-center">
           <div className="col-md-10 ">
             <h3 className="text-center">Portfolio</h3>

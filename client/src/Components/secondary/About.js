@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
 import styles from "./About.module.css";
 import TypeWriter from "../effects/TypeWriter";
 import NeonSign from "../effects/NeonSign";
@@ -7,8 +8,15 @@ class About extends Component {
   render() {
     return (
       <div className={` container shadow-lg ${styles.main1}`}>
+        <Helmet>
+          <title>About</title>
+          <meta
+            name="description"
+            content="A little about James Don, his profession and intrests"
+          ></meta>
+        </Helmet>
         <div className={` row justify-content-center  ${styles.main}`}>
-          <NeonSign mainDesc={"Jamesdon"} flashingDesc={".io"}/>
+          <NeonSign mainDesc={"Jamesdon"} flashingDesc={".io"} />
           <div className={`  ${styles.lead}`}>
             {/** C */}
             <div className={`  ${styles.screenLvl1}`}>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import styles from "./Skills.module.css";
 import GithubApi from "../effects/GithubApi";
 import NeonSign from "../effects/NeonSign";
@@ -7,6 +8,13 @@ import TypeWriter from "../effects/TypeWriter";
 export default () => {
   return (
     <div className={` container shadow-lg ${styles.secondary1}`}>
+      <Helmet>
+        <title>Projects</title>
+        <meta
+          name="description"
+          content="Links to coding projects on github"
+        ></meta>
+      </Helmet>
       <div className={` row justify-content-center  ${styles.main}`}>
         <NeonSign mainDesc={"Projects"} />
         <div className={`  ${styles.lead}`}>
