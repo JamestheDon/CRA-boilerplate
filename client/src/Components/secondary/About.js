@@ -27,7 +27,7 @@ class About extends Component {
                       heading={">_"}
                       messages={[
                         "This is my personal digital platform built by me      ",
-                        "I am at your service...             "
+                        "I am at your service...             ",
                       ]}
                     />
                   </h3>
@@ -44,19 +44,19 @@ class About extends Component {
             <div className={` col-md-8 text-center ${styles.desc}`}>
               <h3 align="center">My Profession</h3>
 
-              <p>
-                Software development. Business, new tools, change and progress.
-              </p>
+              <p>Digital development</p>
 
               <h3 align="center">What I do</h3>
               <p>
-                Think of me as a digital superuser/programmer specilizing in
-                buisiness. Expieranced in industry standards for software
-                development and beyond.
+                Think of me as a digital superuser/programmer. Experienced in
+                industry standards for software development and beyond. I build
+                digital leverage, not weight.
               </p>
-              <h3 align="center">Where you're standing</h3>
+              <h3 align="center">What can you do?</h3>
               <p>
-                This is my private web-app. Api version v1.0.0 is being built.
+                Do you feel a need to reconsider your digital operations? Do you
+                have a solid footing for the future? Contact me by clicking on
+                any of the links below.
               </p>
             </div>
           </div>
