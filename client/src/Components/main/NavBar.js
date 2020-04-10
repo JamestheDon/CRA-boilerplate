@@ -5,10 +5,11 @@ class NavBar extends Component {
   render() {
     return (
       /**++++++++++++++++++++++ */
-      <nav className="navbar navbar-expand-lg navbar-dark   ">
+
+      <nav className="navbar navbar-expand-lg navbar-light   ">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            {"jamesdon.io /"}
+            {"Chicago Health Insurance"}
           </Link>
           <button
             className="navbar-toggler"
@@ -20,23 +21,26 @@ class NavBar extends Component {
           </button>
           {/** */}
           <div className="collapse navbar-collapse " id="mobile-nav">
-            <ul className="nav navbar-nav mr-auto ">
-              <li className="nav-item">
+            <ul
+              className="nav navbar-nav mr-auto "
+              style={{ padding: "15px", paddingRight: "2.5rem" }}
+            >
+              <li className="nav-item" style={{ paddingRight: "25px" }}>
                 <Link className="nav-link" to="/about">
                   about
                 </Link>
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link " to="/skills">
-                  projects
+                <Link className="nav-link " to="/contact">
+                  contact
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link " to="/pixelandprocessor">
                   pixel & processor
                 </Link>
-              </li>
+              </li> */}
 
               {/** 
               <li className="nav-item">

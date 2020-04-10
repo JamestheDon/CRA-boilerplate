@@ -1,16 +1,7 @@
-.screen1 {
-  height: 100vh;
-}
-
 .jumbotron {
-  background-image: url(../../img/RGBL21.gif);
-  background-repeat: no-repeat;
-  height: 30vh;
-  padding: 20px;
-  margin-top: 40px;
+  background-image: url(../../img/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg);
+  padding-bottom: 10px;
   background-size: cover;
-  border: 6px ridge #333;
-  box-shadow: 10px 10px 20px azure;
 }
 
 .darkoverlay {

@@ -1,43 +1,33 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import styles from "./Skills.module.css";
-import GithubApi from "../effects/GithubApi";
-import NeonSign from "../effects/NeonSign";
-import TypeWriter from "../effects/TypeWriter";
 
 export default () => {
   return (
     <div className={` container shadow-lg ${styles.secondary1}`}>
       <Helmet>
-        <title>Projects</title>
-        <meta
-          name="description"
-          content="Links to coding projects on github"
-        ></meta>
+        <title>Contact</title>
+        <meta name="description" content="Contact us today"></meta>
       </Helmet>
       <div className={` row justify-content-center  ${styles.main}`}>
-        <NeonSign mainDesc={"Projects"} />
-        <div className={`  ${styles.lead}`}>
-          {/** C */}
-          <div className={`  ${styles.screenLvl1}`}>
-            <div className={`  ${styles.screenLvl2}`}>
-              <div className={`  text-left ${styles.screenLvl3}`}>
-                <h3 className="lead m-2">
-                  <TypeWriter
-                    heading={">_"}
-                    messages={[
-                      "These are my active Github repositories.         "
-                    ]}
-                  />
-                </h3>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div className={`  ${styles.lead}`}></div>
+      </div>
+      <div>
+        <form>
+          <label>
+            Name:
+            <input type="text" name="name" />
+          </label>
+          <input type="submit" value="Submit" />
+          <label>
+            Email:
+            <input type="text" name="Email" />
+          </label>
+          <input type="submit" value="Submit" />
+        </form>
       </div>
 
       <hr />
-      <GithubApi username={"JamestheDon"} />
     </div>
   );
   /**
