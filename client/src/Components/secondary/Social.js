@@ -4,7 +4,7 @@ export default () => {
   return (
     <div className="col">
       <span className="text-center text-dark">
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="/" target="_blank" rel="noopener noreferrer">
           {" "}
           <i className="fab fa-github " />
           Github
@@ -14,11 +14,11 @@ export default () => {
           <i className="fas fa-envelope-open-text " />
           Email
         </a>{" "}
-        <a href="#">
+        <a href="/">
           <i className="fab fa-twitter " />
           Twitter
         </a>{" "}
-        <a href="#">
+        <a href="/">
           <i className="fab fa-linkedin " />
           Linkedin
         </a>
