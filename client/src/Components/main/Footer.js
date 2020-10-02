@@ -5,7 +5,7 @@ export default () => {
   return (
     <footer className=" text-black mb-2 p-2 text-center">
       <span>
-        Copyright &copy; {new Date().getFullYear()} Medicare Insurance Group.
+        Copyright &copy; {new Date().getFullYear()} Pixel and Processor, llc.
         All rights reserved.
       </span>
       <Social />

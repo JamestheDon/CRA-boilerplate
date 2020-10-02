@@ -9,7 +9,7 @@ export default () => {
         <title>Contact</title>
         <meta name="description" content="Contact us today"></meta>
       </Helmet>
-      <div className={` row justify-content-center  ${styles.main}`}>
+      <div className={`  ${styles.main}`}>
         <div className={`  ${styles.lead}`}></div>
       </div>
       <div>
@@ -19,6 +19,7 @@ export default () => {
             <input type="text" name="name" />
           </label>
           <input type="submit" value="Submit" />
+          <br />
           <label>
             Email:
             <input type="text" name="Email" />

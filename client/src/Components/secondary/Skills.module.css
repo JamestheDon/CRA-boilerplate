@@ -11,7 +11,7 @@
   border: 6px ridge #333;
   box-shadow: 0px 20px 20px azure;
   background-size: cover;
-  background-image: url();
+  /* background-image: url(); */
   z-index: 1;
 }
 .screenLvl2 {

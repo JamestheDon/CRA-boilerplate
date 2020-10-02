@@ -9,7 +9,7 @@ class NavBar extends Component {
       <nav className="navbar navbar-expand-lg navbar-light   ">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            {"Chicago Health Insurance"}
+            {"Starter CRA"}
           </Link>
           <button
             className="navbar-toggler"
